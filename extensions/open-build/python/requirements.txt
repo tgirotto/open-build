@@ -1,0 +1,6 @@
+# Python 3.10 or newer is required.
+mcp==2.2.0
+PyYAML==6.0.3
+CoolProp==8.0.0
+build123d==0.13.0
+pypdf==6.19.0

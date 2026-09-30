@@ -1,0 +1,13 @@
+{
+	"displayName": "Open Build",
+	"description": "Local engineering tools for geometry, validation, and bills of materials.",
+	"command.category": "Open Build",
+	"command.newProject": "New Engineering Project",
+	"command.showModel": "Show Model",
+	"customEditor.stl": "STL Model",
+	"command.showBom": "Show Bill of Materials",
+	"config.title": "Open Build",
+	"config.pythonPath": "Python executable used to start the Open Build tool server. Leave this as python3 to use the extension virtual environment when it exists. Python 3.10 or newer is required.",
+	"mcp.label": "Open Build",
+	"untrustedWorkspaces": "Open Build runs project Python and writes geometry and BOM files."
+}

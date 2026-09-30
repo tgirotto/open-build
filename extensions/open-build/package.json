@@ -1,0 +1,90 @@
+{
+  "name": "open-build",
+  "displayName": "%displayName%",
+  "description": "%description%",
+  "version": "10.0.0",
+  "publisher": "vscode",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.101.0"
+  },
+  "main": "./out/extension",
+  "categories": [
+    "Other"
+  ],
+  "extensionKind": [
+    "workspace"
+  ],
+  "activationEvents": [
+    "onCommand:openBuild.newProject",
+    "onCommand:openBuild.showModel",
+    "onCommand:openBuild.showBom",
+    "onCustomEditor:openBuild.stlPreview",
+    "onMcpCollection:open-build"
+  ],
+  "capabilities": {
+    "virtualWorkspaces": false,
+    "untrustedWorkspaces": {
+      "supported": false,
+      "description": "%untrustedWorkspaces%"
+    }
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "openBuild.newProject",
+        "title": "%command.newProject%",
+        "category": "%command.category%"
+      },
+      {
+        "command": "openBuild.showModel",
+        "title": "%command.showModel%",
+        "category": "%command.category%"
+      },
+      {
+        "command": "openBuild.showBom",
+        "title": "%command.showBom%",
+        "category": "%command.category%"
+      }
+    ],
+    "configuration": {
+      "title": "%config.title%",
+      "properties": {
+        "openBuild.pythonPath": {
+          "type": "string",
+          "default": "python3",
+          "markdownDescription": "%config.pythonPath%"
+        }
+      }
+    },
+    "customEditors": [
+      {
+        "viewType": "openBuild.stlPreview",
+        "displayName": "%customEditor.stl%",
+        "priority": "default",
+        "selector": [
+          {
+            "filenamePattern": "*.stl"
+          }
+        ]
+      }
+    ],
+    "mcpServerDefinitionProviders": [
+      {
+        "id": "open-build",
+        "label": "%mcp.label%"
+      }
+    ]
+  },
+  "dependencies": {
+    "three": "0.170.0"
+  },
+  "scripts": {
+    "compile": "gulp compile-extension:open-build",
+    "watch": "gulp watch-extension:open-build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/microsoft/vscode.git"
+  }
+}

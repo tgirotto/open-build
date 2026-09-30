@@ -911,7 +911,6 @@ export class ChatTeardownContribution extends Disposable implements IWorkbenchCo
 }
 
 //#endregion
-
 /**
  * Custom action view item that renders a "Sign In" button
  * in the title bar with prominent button styling.
@@ -953,3 +952,4 @@ class SignInTitleBarEntry extends BaseActionViewItem {
 		}
 	}
 }
+

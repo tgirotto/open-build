@@ -1,0 +1,158 @@
+[
+  {
+    "partNumber": "DEV-COMP-08",
+    "manufacturer": "Harborline",
+    "category": "compressor",
+    "description": "Development stand-in. Scroll compressor, too small for a 15 kW R290 duty.",
+    "refrigerants": ["R290"],
+    "weight_kg": 28,
+    "envelope_mm": { "x": 280, "y": 180, "z": 260 },
+    "ratings": [
+      { "fluid": "R290", "evaporator_C": -10, "condenser_C": 40, "capacity_W": 8000 }
+    ],
+    "source": { "file": "catalog/components.json" }
+  },
+  {
+    "partNumber": "DEV-COMP-18",
+    "manufacturer": "Harborline",
+    "category": "compressor",
+    "description": "Development stand-in. Scroll compressor covering a 15 kW R290 duty. About 6 kW input at this point.",
+    "refrigerants": ["R290"],
+    "weight_kg": 42,
+    "envelope_mm": { "x": 400, "y": 250, "z": 350 },
+    "ratings": [
+      { "fluid": "R290", "evaporator_C": -10, "condenser_C": 40, "capacity_W": 18000 }
+    ],
+    "source": { "file": "catalog/components.json" }
+  },
+  {
+    "partNumber": "DEV-COMP-30",
+    "manufacturer": "Harborline",
+    "category": "compressor",
+    "description": "Development stand-in. Larger scroll compressor for duties above 15 kW.",
+    "refrigerants": ["R290"],
+    "weight_kg": 61,
+    "envelope_mm": { "x": 480, "y": 300, "z": 420 },
+    "ratings": [
+      { "fluid": "R290", "evaporator_C": -10, "condenser_C": 40, "capacity_W": 30000 }
+    ],
+    "source": { "file": "catalog/components.json" }
+  },
+  {
+    "partNumber": "DEV-EVAP-15",
+    "manufacturer": "Harborline",
+    "category": "evaporator",
+    "description": "Development stand-in. Brazed-plate evaporator, 15 kW class, chilled water.",
+    "refrigerants": ["R290"],
+    "weight_kg": 12,
+    "envelope_mm": { "x": 350, "y": 120, "z": 200 },
+    "ratings": [
+      { "fluid": "R290", "evaporator_C": -10, "condenser_C": 40, "capacity_W": 16000 }
+    ],
+    "source": { "file": "catalog/components.json" }
+  },
+  {
+    "partNumber": "DEV-EVAP-25",
+    "manufacturer": "Harborline",
+    "category": "evaporator",
+    "description": "Development stand-in. Brazed-plate evaporator, 25 kW class.",
+    "refrigerants": ["R290"],
+    "weight_kg": 18,
+    "envelope_mm": { "x": 420, "y": 140, "z": 240 },
+    "ratings": [
+      { "fluid": "R290", "evaporator_C": -10, "condenser_C": 40, "capacity_W": 25000 }
+    ],
+    "source": { "file": "catalog/components.json" }
+  },
+  {
+    "partNumber": "DEV-COND-22",
+    "manufacturer": "Harborline",
+    "category": "condenser",
+    "description": "Development stand-in. Air-cooled condenser rejecting about 22 kW.",
+    "refrigerants": ["R290"],
+    "weight_kg": 35,
+    "envelope_mm": { "x": 700, "y": 400, "z": 350 },
+    "ratings": [
+      { "fluid": "R290", "evaporator_C": -10, "condenser_C": 40, "capacity_W": 22000 }
+    ],
+    "source": { "file": "catalog/components.json" }
+  },
+  {
+    "partNumber": "DEV-COND-40",
+    "manufacturer": "Harborline",
+    "category": "condenser",
+    "description": "Development stand-in. Air-cooled condenser rejecting about 40 kW.",
+    "refrigerants": ["R290"],
+    "weight_kg": 58,
+    "envelope_mm": { "x": 900, "y": 450, "z": 400 },
+    "ratings": [
+      { "fluid": "R290", "evaporator_C": -10, "condenser_C": 40, "capacity_W": 40000 }
+    ],
+    "source": { "file": "catalog/components.json" }
+  },
+  {
+    "partNumber": "DEV-TXV-15",
+    "manufacturer": "Harborline",
+    "category": "expansion_valve",
+    "description": "Development stand-in. Thermostatic expansion valve for a 15 kW R290 circuit.",
+    "refrigerants": ["R290"],
+    "weight_kg": 0.6,
+    "envelope_mm": { "x": 80, "y": 40, "z": 40 },
+    "ratings": [
+      { "fluid": "R290", "evaporator_C": -10, "condenser_C": 40, "capacity_W": 16000 }
+    ],
+    "source": { "file": "catalog/components.json" }
+  },
+  {
+    "partNumber": "DEV-TXV-30",
+    "manufacturer": "Harborline",
+    "category": "expansion_valve",
+    "description": "Development stand-in. Thermostatic expansion valve for a 30 kW R290 circuit.",
+    "refrigerants": ["R290"],
+    "weight_kg": 0.8,
+    "envelope_mm": { "x": 90, "y": 45, "z": 45 },
+    "ratings": [
+      { "fluid": "R290", "evaporator_C": -10, "condenser_C": 40, "capacity_W": 32000 }
+    ],
+    "source": { "file": "catalog/components.json" }
+  },
+  {
+    "partNumber": "DEV-OIL-18",
+    "manufacturer": "Harborline",
+    "category": "oil_separator",
+    "description": "Development stand-in. Oil separator for the 18 kW compressor.",
+    "refrigerants": ["R290"],
+    "weight_kg": 8,
+    "envelope_mm": { "x": 150, "y": 150, "z": 400 },
+    "ratings": [
+      { "fluid": "R290", "evaporator_C": -10, "condenser_C": 40, "capacity_W": 18000 }
+    ],
+    "source": { "file": "catalog/components.json" }
+  },
+  {
+    "partNumber": "DEV-PUMP-15",
+    "manufacturer": "Harborline",
+    "category": "chilled_water_pump",
+    "description": "Development stand-in. Chilled-water pump, about 2.6 m3/h at 150 kPa, for a 15 kW evaporator.",
+    "refrigerants": ["R290"],
+    "weight_kg": 14,
+    "envelope_mm": { "x": 200, "y": 150, "z": 180 },
+    "ratings": [
+      { "fluid": "R290", "evaporator_C": -10, "condenser_C": 40, "capacity_W": 15000 }
+    ],
+    "source": { "file": "catalog/components.json" }
+  },
+  {
+    "partNumber": "DEV-FAN-22",
+    "manufacturer": "Harborline",
+    "category": "condenser_fan",
+    "description": "Development stand-in. Condenser fan set for the 22 kW air-cooled condenser.",
+    "refrigerants": ["R290"],
+    "weight_kg": 9,
+    "envelope_mm": { "x": 450, "y": 450, "z": 150 },
+    "ratings": [
+      { "fluid": "R290", "evaporator_C": -10, "condenser_C": 40, "capacity_W": 22000 }
+    ],
+    "source": { "file": "catalog/components.json" }
+  }
+]
